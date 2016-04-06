@@ -2,7 +2,6 @@
 @import "fonts";
 @import "mixins/index";
 @import "mixins/clearfix";
-@import "navbar";
 
 
 
@@ -33,16 +32,12 @@ h3 {
 	padding-top: 50px;
 }
 
-.logo__title() {
+
+.logo {
 	text-decoration: none;
 	font-family: @ff-opensans;
 	font-size: 38px;
 	color: #474747;
-
-}
-
-.logo {
-	.logo__title();
 	
 }
 
@@ -55,10 +50,35 @@ h3 {
 	background-repeat: no-repeat;
 }
 
-.header__nav {
-	.navbar();
+.slider__img {
+	position: relative;
+	right: 60px;
+	bottom: 50px;
 }
 
+.header__nav {
+	float: right;
+	position: relative;
+	top: 15px;
+	li {
+		float: left;
+		list-style: none;
+	}
+	a {
+		display: block;
+		text-decoration: none;
+		padding: 0 10px 0 10px;
+		font-size: 18px;
+		font-family: @ff-opensans;
+		color: #454545;
+		&:hover {
+			background-color: #bbb;
+		}
+		&:active {
+			background-color: #ccc;
+		}
+	}
+}
 .products__item {
 	float: left;
 }

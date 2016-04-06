@@ -164,25 +164,33 @@ h3 {
   background-image: url(../../source/img/logo.png);
   background-repeat: no-repeat;
 }
+.slider__img {
+  position: relative;
+  right: 60px;
+  bottom: 50px;
+}
 .header__nav {
   float: right;
   position: relative;
   top: 15px;
 }
 .header__nav li {
-  list-style: none;
   float: left;
+  list-style: none;
 }
 .header__nav a {
   display: block;
   text-decoration: none;
-  padding: 0 5px 0 5px;
+  padding: 0 10px 0 10px;
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
   color: #454545;
 }
 .header__nav a:hover {
   background-color: #bbb;
+}
+.header__nav a:active {
+  background-color: #ccc;
 }
 .products__item {
   float: left;
