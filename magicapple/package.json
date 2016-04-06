@@ -1,0 +1,23 @@
+{
+  "name"            : "ts",
+  "version"         : "0.0.0",
+  "description"     : "ts",
+  "author"          : "Dark Preacher",
+  "devDependencies" : {
+    "browser-sync"               : "",
+    "gulp"                       : "",
+    "gulp-combine-media-queries" : "",
+    "gulp-concat"                : "",
+    "gulp-csso"                  : "",
+    "gulp-imagemin"              : "",
+    "gulp-less"                  : "",
+    "gulp-rename"                : "",
+    "gulp-size"                  : "",
+    "gulp-uglify"                : "",
+    "gulp-util"                  : "",
+    "gulp-autoprefixer"          : "",
+    "gulp-notify"                : "",
+    "vinyl-buffer"               : "",
+    "merge-stream"               : ""
+  }
+}

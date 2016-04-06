@@ -1,0 +1,73 @@
+@import "reset";
+@import "fonts";
+@import "mixins/index";
+@import "mixins/clearfix";
+@import "navbar";
+
+
+
+body {
+	background-image: url(../../source/img/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 180px;
+	font-family: @ff-tahoma;
+	font-size: 14px;
+}
+
+h2, h3 {
+	font-family: @ff-opensans;
+	color: #454545;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 25px;
+}
+
+.header {
+	border-bottom: 1px solid #ccc;
+	height: 109px;
+	padding-top: 50px;
+}
+
+.logo__title() {
+	text-decoration: none;
+	font-family: @ff-opensans;
+	font-size: 38px;
+	color: #474747;
+
+}
+
+.logo {
+	.logo__title();
+	
+}
+
+.logo__img {
+	display: block;
+	float: left;
+	width: 45px;
+	height: 45px;
+	background-image: url(../../source/img/logo.png);
+	background-repeat: no-repeat;
+}
+
+.header__nav {
+	.navbar();
+}
+
+.products__item {
+	float: left;
+}
+
+.container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.clearfix {
+	.clearfix();
+}
