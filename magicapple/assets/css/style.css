@@ -141,9 +141,14 @@ h3 {
 }
 h2 {
   font-size: 36px;
+  line-height: 1.8;
 }
 h3 {
   font-size: 25px;
+  line-height: 1.6;
+}
+p {
+  line-height: 1.6;
 }
 .header {
   border-bottom: 1px solid #ccc;
@@ -164,11 +169,6 @@ h3 {
   background-image: url(../../source/img/logo.png);
   background-repeat: no-repeat;
 }
-.slider__img {
-  position: relative;
-  right: 60px;
-  bottom: 50px;
-}
 .header__nav {
   float: right;
   position: relative;
@@ -177,6 +177,9 @@ h3 {
 .header__nav li {
   float: left;
   list-style: none;
+}
+.header__nav .act {
+  background-color: #ddd;
 }
 .header__nav a {
   display: block;
@@ -189,15 +192,87 @@ h3 {
 .header__nav a:hover {
   background-color: #bbb;
 }
-.header__nav a:active {
-  background-color: #ccc;
+.slider__img {
+  position: relative;
+  right: 60px;
+  bottom: 50px;
+}
+.slider__text {
+  width: 470px;
+  position: absolute;
+  top: 450px;
+  right: 350px;
+  color: #fff;
+}
+.slider__text h2 {
+  color: #fff;
+}
+.block__prod {
+  position: relative;
+  bottom: 55px;
+}
+.products {
+  padding-bottom: 70px;
+}
+.products .buttons {
+  text-decoration: none;
+  background-color: #222;
+  color: #fff;
+  line-height: 1.8;
 }
 .products__item {
   float: left;
 }
+.products__item .products__description {
+  float: right;
+  width: 140px;
+  padding-left: 15px;
+}
+.products__item .products__description p {
+  font-size: 13px;
+}
+.stock__img {
+  background-image: url(../../source/img/stock.png);
+  background-repeat: no-repeat;
+  height: 140px;
+  width: 900px;
+  position: absolute;
+  top: 1120px;
+}
+.stock__text {
+  width: 640px;
+  height: 140px;
+  position: relative;
+  left: 170px;
+}
 .container {
   width: 900px;
   margin: 0 auto;
+}
+.footer {
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+}
+.footer .box {
+  width: 40%;
+  height: 15%;
+  display: inline-block;
+}
+.footer .box .magic {
+  float: left;
+}
+.footer .box .face,
+.footer .box .twit,
+.footer .box address {
+  float: right;
+  text-align: right;
+}
+.icons {
+  background-image: url(../../source/img/sprites_1.png);
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #000;
 }
 .clearfix:before,
 .clearfix:after {
